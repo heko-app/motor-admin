@@ -1,0 +1,3 @@
+[submodule "vendor/motor-admin"]
+	path = vendor/motor-admin
+	url = https://github.com/heko-app/motor-admin-rails.git
