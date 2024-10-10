@@ -27,7 +27,7 @@ jobs:
         run: ls -al vendor/motor-admin
 
       - name: Debug 2
-        run: ls -al vendor/motor-admin/app/controllers/motor/run_api_requests_controller.rb
+        run: cat vendor/motor-admin/app/controllers/motor/run_api_requests_controller.rb
 
       - name: Docker meta
         id: meta
