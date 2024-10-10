@@ -23,12 +23,6 @@ jobs:
         with:
           submodules: recursive
 
-      - name: Debug
-        run: ls -al vendor/motor-admin
-
-      - name: Debug 2
-        run: cat vendor/motor-admin/app/controllers/motor/run_api_requests_controller.rb
-
       - name: Docker meta
         id: meta
         uses: docker/metadata-action@v4
